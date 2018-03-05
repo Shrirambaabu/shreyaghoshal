@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/relLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp">
+                    <ImageView
+                        android:id="@+id/profileCover"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/sg_cover"
+                        android:scaleType="centerCrop"/>
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/shil"
+                        app:add_shadow="false" />
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:layout_below="@id/relLayout2">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:stretchColumns="*">
+
+                        <TableRow
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="24dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:padding="8dp"
+                                android:text="@string/dob"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/roll_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_weight="1"
+                                android:maxLines="1"
+                                android:padding="8dp"
+                                android:text="12 March, 1984"
+                                android:textColor="@color/colorOrange"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="24dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:padding="8dp"
+                                android:text="@string/zodaic_sign"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/section"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_weight="1"
+                                android:maxLines="1"
+                                android:padding="8dp"
+                                android:text="@string/pisces"
+                                android:textColor="@color/colorOrange"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="24dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:padding="8dp"
+                                android:text="@string/birth_place"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/father_mother"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_weight="1"
+                                android:maxLines="2"
+                                android:padding="8dp"
+                                android:text="@string/baharampur_west_bengal"
+                                android:textColor="@color/colorOrange"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="24dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:padding="8dp"
+                                android:text="@string/school"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/contact"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_weight="1"
+                                android:maxLines="2"
+                                android:padding="8dp"
+                                android:text="@string/atomic_energy_central_school_in_rawatbhata"
+                                android:textColor="@color/colorOrange"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="24dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:padding="8dp"
+                                android:text="@string/college"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/class_teacher"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_weight="1"
+                                android:maxLines="2"
+                                android:padding="8dp"
+                                android:text="@string/sies_college_of_arts_science_and_commerce_mumbai"
+                                android:textColor="@color/colorOrange"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginBottom="24dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:padding="8dp"
+                                android:text="@string/marital_status"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:layout_weight="1"
+                                android:maxLines="4"
+                                android:padding="8dp"
+                                android:text="@string/married"
+                                android:textColor="@color/colorOrange"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>

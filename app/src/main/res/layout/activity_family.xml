@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.FamilyActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sg_home" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/father_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorTransparent">
+
+                <ImageView
+                    android:id="@+id/father_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sg_father_" />
+
+                <TextView
+                    android:id="@+id/father_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/father_image"
+                    android:layout_margin="4dp"
+                    android:text="@string/bishwajit_ghoshal"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/father_image"
+                    android:text="@string/father_des"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_margin="8dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mother_details"
+                android:layout_below="@+id/father_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorTransparent">
+
+                <ImageView
+                    android:id="@+id/mother_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sg_mother" />
+
+                <TextView
+                    android:id="@+id/mother_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mother_image"
+                    android:layout_margin="4dp"
+                    android:text="@string/sarmistha_ghoshal"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/mother_image"
+                    android:text="@string/mother_des"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_margin="8dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/brother_details"
+                android:layout_below="@+id/mother_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorTransparent">
+
+                <ImageView
+                    android:id="@+id/brother_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/sg_brother"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/brother_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brother_image"
+                    android:layout_margin="4dp"
+                    android:text="@string/soumyadeep_ghoshal"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/brother_image"
+                    android:text="@string/brother_des"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_margin="8dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/husband_details"
+                android:layout_below="@+id/brother_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorTransparent">
+
+                <ImageView
+                    android:id="@+id/husband_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/shil"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/husband_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/husband_image"
+                    android:layout_margin="4dp"
+                    android:text="@string/shiladitya"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/husband_image"
+                    android:text="@string/shil_des"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_margin="8dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sherlock_details"
+                android:layout_below="@+id/husband_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/colorTransparent">
+
+                <ImageView
+                    android:id="@+id/sherlock_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/sg_dog"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/sherlock_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sherlock_image"
+                    android:layout_margin="4dp"
+                    android:text="@string/sherlock"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/sherlock_image"
+                    android:text="@string/dog_des"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_margin="8dp"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

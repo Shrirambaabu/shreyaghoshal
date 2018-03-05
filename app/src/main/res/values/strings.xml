@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Shreya Ghoshal- Melody Queen</string>
+    <string name="profile">Profile</string>
+    <string name="shreya_s_tweets">Shreya\'s Tweets</string>
+    <string name="shreya_ghoshal">Shreya Ghoshal</string>
+    <string name="dob">Date of Birth</string>
+    <string name="zodaic_sign">Zodaic Sign</string>
+    <string name="pisces">Pisces</string>
+    <string name="birth_place">Birth Place</string>
+    <string name="baharampur_west_bengal">Baharampur, West Bengal</string>
+    <string name="atomic_energy_central_school_in_rawatbhata">Atomic Energy Central School in Rawatbhata.</string>
+    <string name="school">School</string>
+    <string name="college">College</string>
+    <string name="sies_college_of_arts_science_and_commerce_mumbai">SIES College of Arts, Science and Commerce, Mumbai</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="married">Married</string>
+    <string name="shreya_s_family">Shreya\'s Family</string>
+    <string name="bishwajit_ghoshal">Bishwajit Ghoshal</string>
+    <string name="sarmistha_ghoshal">Sarmistha Ghoshal</string>
+    <string name="soumyadeep_ghoshal">Soumyadeep Ghoshal</string>
+    <string name="shiladitya">Shiladitya Mukhopadhyaya</string>
+    <string name="sherlock">Sherlock Ghoshal</string>
+
+    <string name="father_des">Her father, Bishwajit Ghoshal is an electrical engineer and works for the Nuclear Power Corporation of India.</string>
+    <string name="mother_des">Her mother, Sarmistha Ghoshal, is a literature post-graduate.Her mother used to help Shreya in her rehearsals</string>
+    <string name="brother_des">Shreya may be daddy\'s little girl, but her brother is the one who will hold the window open for her while she sneak out.</string>
+    <string name="shil_des">Shreya married her childhood friend Shiladitya.| Tech Entrepreneur . They were friends for almost 10 years</string>
+    <string name="dog_des">Although dogs look very different from people, they share many of our body’s characteristics. Sherlock remains in Shreya\'s family.</string>
+
+</resources>
