@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.StatueActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vlc" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/was_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/sg_wax"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"/>
+
+
+                <ImageView
+                    android:id="@+id/wax_preview"
+                    android:layout_below="@+id/was_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/full_wax" />
+
+                <TextView
+                    android:id="@+id/opening"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sg_statue"
+                    android:layout_below="@+id/wax_preview"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:lineSpacingExtra="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="16dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/statue_image"
+                    android:layout_below="@+id/opening"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wax_sg_statue"/>
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

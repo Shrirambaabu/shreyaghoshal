@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.AwardsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sg_award" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/sg_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/sg_details"
+                    android:layout_margin="8dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/sg_two"
+                    android:layout_below="@+id/sg_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/national_awards"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:id="@+id/sg_nation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sg_two"
+                    android:text="@string/n_award"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:lineSpacingExtra="8dp"/>
+                
+                
+                <ImageView
+                    android:id="@+id/nation_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/nation"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerCrop"
+                    android:layout_below="@+id/sg_nation"/>
+
+                <TextView
+                    android:id="@+id/sg_three"
+                    android:layout_below="@+id/nation_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/filmfare_awards"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    android:id="@+id/sg_film"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sg_three"
+                    android:text="@string/film_des"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:lineSpacingExtra="8dp"/>
+
+
+                <TextView
+                    android:id="@+id/sg_more"
+                    android:layout_below="@+id/sg_film"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/more"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:id="@+id/sg_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sg_more"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_style"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@android:color/white"
+                    android:text="@string/click_here"/>
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

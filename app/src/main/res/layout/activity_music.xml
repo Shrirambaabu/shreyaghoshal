@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.MusicActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mic_sg" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/album_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/sg_album"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/dk_single"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/album_des"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/dk"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/dk_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_below="@+id/dk_single"
+                    android:layout_marginBottom="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sg_dkkk" />
+
+                <TextView
+                    android:id="@+id/teri_single"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dk_image"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/tere_bina_shreya_s_single"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/teri_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_below="@+id/teri_single"
+                    android:layout_marginBottom="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/teri_bina" />
+
+                <TextView
+                    android:id="@+id/download_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/teri_image"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/songs_sg"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/hindi_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/download_head"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/bg_style"
+                    android:text="@string/hindi_songs_download"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/tamil_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hindi_button"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_style"
+                    android:text="@string/tamil_songs_download"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/telugu_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tamil_button"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/bg_style"
+                    android:text="@string/telugu_songs_download"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/malayalam_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/telugu_button"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/bg_style"
+                    android:text="@string/malayalam_songs_download"
+                    android:textColor="@android:color/white" />
+
+
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

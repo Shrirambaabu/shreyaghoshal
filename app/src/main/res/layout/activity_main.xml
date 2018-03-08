@@ -8,9 +8,10 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/sg_yellow"
-        android:scaleType="centerCrop"/>
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sg_yellow" />
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -54,6 +55,132 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/relative_six"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent">
+
+                    <ImageView
+                        android:id="@+id/icon_six"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_import_contacts_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_six"
+                        android:layout_centerInParent="true"
+                        android:text="@string/biography"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_two"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/linear_one"
+                android:layout_margin="4dp"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:id="@+id/relative_seven"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent">
+
+                    <ImageView
+                        android:id="@+id/icon_seven"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_mic_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_seven"
+                        android:layout_centerInParent="true"
+                        android:text="@string/career"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative_three"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent">
+
+                    <ImageView
+                        android:id="@+id/icon_three"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_group_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_three"
+                        android:layout_centerInParent="true"
+                        android:text="@string/shreya_s_family"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_three"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/linear_two"
+                android:layout_margin="4dp"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:id="@+id/relative_eight"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent">
+
+                    <ImageView
+                        android:id="@+id/icon_eight"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_check_circle_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_eight"
+                        android:layout_centerInParent="true"
+                        android:text="@string/awards"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
                     android:id="@+id/relative_tweet"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -83,38 +210,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linear_two"
+                android:id="@+id/linear_four"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_below="@+id/linear_one"
+                android:layout_below="@+id/linear_three"
                 android:layout_margin="4dp"
                 android:weightSum="2">
-
-                <RelativeLayout
-                    android:id="@+id/relative_three"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="4dp"
-                    android:layout_weight="1"
-                    android:background="@color/colorTransparent">
-
-                    <ImageView
-                        android:id="@+id/icon_three"
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:layout_centerInParent="true"
-                        android:layout_margin="16dp"
-                        android:src="@drawable/ic_group_white_24dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/icon_three"
-                        android:layout_centerInParent="true"
-                        android:text="@string/shreya_s_family"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
-                </RelativeLayout>
 
                 <RelativeLayout
                     android:id="@+id/relative_four"
@@ -130,14 +231,103 @@
                         android:layout_height="48dp"
                         android:layout_centerInParent="true"
                         android:layout_margin="16dp"
-                        android:src="@android:drawable/ic_dialog_alert" />
+                        android:src="@drawable/ic_mood_white_24dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/icon_four"
                         android:layout_centerInParent="true"
-                        android:text="Text One"
+                        android:text="@string/special_day"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative_five"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent">
+
+                    <ImageView
+                        android:id="@+id/icon_five"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_assistant_photo_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_five"
+                        android:layout_centerInParent="true"
+                        android:text="@string/statue"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_five"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/linear_four"
+                android:layout_margin="4dp"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:id="@+id/relative_nine"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent">
+
+                    <ImageView
+                        android:id="@+id/icon_nine"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_play_circle_outline_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_nine"
+                        android:layout_centerInParent="true"
+                        android:text="@string/music"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative_ten"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTransparent">
+
+                    <ImageView
+                        android:id="@+id/icon_ten"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_contacts_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon_ten"
+                        android:layout_centerInParent="true"
+                        android:text="@string/connect_with_us"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
                 </RelativeLayout>

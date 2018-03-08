@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.CareerActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/career" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/bolly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/bollywood_debut"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:id="@+id/bolly_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bolly"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/exp_sg"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/concert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bolly_des"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/concert_and_other_activities"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/concert_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/concert"
+                    android:layout_margin="8dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/concert_des"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/joy_sg"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_below="@+id/concert_des"
+                    android:scaleType="centerCrop"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/joy" />
+
+                <TextView
+                    android:id="@+id/media_sg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/joy_sg"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/media_image"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/media_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/media_sg"
+                    android:layout_margin="8dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/media_des"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

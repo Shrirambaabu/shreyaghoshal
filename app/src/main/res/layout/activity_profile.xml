@@ -38,7 +38,7 @@
                         android:layout_height="150dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:src="@drawable/shil"
+                        android:src="@drawable/sg_2"
                         app:add_shadow="false" />
 
 
@@ -184,7 +184,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_column="1"
                                 android:layout_weight="1"
-                                android:maxLines="2"
                                 android:padding="8dp"
                                 android:text="@string/sies_college_of_arts_science_and_commerce_mumbai"
                                 android:textColor="@color/colorOrange"

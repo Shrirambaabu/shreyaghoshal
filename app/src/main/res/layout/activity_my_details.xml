@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.MyDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sg_life" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/about_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/a_few_about_me"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/about_me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/about_us"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/about_me_detail" />
+
+                <TextView
+                    android:id="@+id/sg_to_me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/about_me"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/sg_response"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/me_sg_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/sg_to_me"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sg_me" />
+
+                <TextView
+                    android:id="@+id/sg_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/me_sg_img"
+                    android:layout_margin="8dp"
+                    android:text="@string/feature"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <RelativeLayout
+                    android:id="@+id/sg_fb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sg_text"
+                    android:layout_margin="4dp">
+
+
+                    <TextView
+                        android:id="@+id/fb_head"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/facebook"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/fb_head_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fb_head"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/fb_srb_add"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+
+                    <ImageView
+                        android:id="@+id/fb_image"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/fb" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sg_twitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sg_fb"
+                    android:layout_margin="4dp">
+
+                    <TextView
+                        android:id="@+id/tw_head"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/twitter"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tw_head_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tw_head"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/twitter_add_srb"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/tw_image"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/twitter" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/sg_insta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sg_twitter"
+                    android:layout_margin="4dp">
+
+                    <TextView
+                        android:id="@+id/inst_head"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/instagram"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/inst_head_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/inst_head"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/insta_add_srb"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/inst_image"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/insta" />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/sg_text_gmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sg_insta"
+                    android:layout_margin="8dp"
+                    android:text="@string/feature_gmail"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mail_des"
+                    android:layout_below="@id/sg_text_gmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@android:color/white"
+                    android:text="@string/mail_msg"/>
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+</RelativeLayout>

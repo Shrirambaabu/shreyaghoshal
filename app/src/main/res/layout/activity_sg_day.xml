@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="srb.com.shreyaghoshal_melodyqueen.SgDay">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sg_day_dark" />
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sg_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sg_day" />
+
+                <TextView
+                    android:id="@+id/sg_day_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_below="@+id/sg_image"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@android:color/white"
+                    android:text="@string/sg_day_text"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/click_here"
+                    android:layout_below="@+id/sg_day_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Click here to watch "
+                    android:textSize="20sp"
+                    android:textColor="@color/colorOrange"
+                    android:layout_marginStart="16dp"
+                    />
+                <ImageView
+                    android:id="@+id/video_sg"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_below="@+id/click_here"
+                    android:src="@drawable/maxresdefault"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="16dp"
+                    />
+
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+</RelativeLayout>
