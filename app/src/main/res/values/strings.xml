@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Shreya Ghoshal- Melody Queen</string>
+    <string name="app_name">Shreya Ghoshal-Melody Queen</string>
     <string name="profile">Profile</string>
     <string name="shreya_s_tweets">Shreya\'s Tweets</string>
     <string name="shreya_ghoshal">Shreya Ghoshal</string>
@@ -22,9 +22,9 @@
     <string name="sherlock">Sherlock Ghoshal</string>
 
     <string name="father_des">Her father, Bishwajit Ghoshal is an electrical engineer and works for the Nuclear Power Corporation of India.</string>
-    <string name="mother_des">Her mother, Sarmistha Ghoshal, is a literature post-graduate.Her mother used to help Shreya in her rehearsals</string>
+    <string name="mother_des">Her mother, Sarmistha Ghoshal, is a literature post-graduate.Her mother used to help Shreya in her rehearsals.</string>
     <string name="brother_des">Shreya may be daddy\'s little girl, but her brother is the one who will hold the window open for her while she sneak out.</string>
-    <string name="shil_des">Shreya married her childhood friend Shiladitya.| Tech Entrepreneur . They were friends for almost 10 years</string>
+    <string name="shil_des">Shreya married her childhood friend Shiladitya.| Tech Entrepreneur . They were friends for almost 10 years.</string>
     <string name="dog_des">Although dogs look very different from people, they share many of our body’s characteristics. Sherlock remains in her family.</string>
     <string name="special_day">Special day</string>
 
@@ -38,7 +38,7 @@ Shreya's massive fan following too was overwhelmed with her achievement. Her Twi
         Delighted with such a prestigious position, Shreya Ghoshal said, \n \n <i>\"I am thrilled to be a part of history here at Madame Tussauds, and it is an honour to be featured among such talented stars, artists, historians and renowned celebrities. To be immortalised forever is a fabulous feeling. With its brilliant concept, Madame Tussauds has always been famous for bringing joy all across the world.\"</i>
 
 </string>
-    <string name="sg_statue">&#160;&#160;&#160;&#160;&#160; Madame Tussauds was opened on Dec 1, 2017. There was many people to look around the statue</string>
+    <string name="sg_statue">&#160;&#160;&#160;&#160;&#160; Madame Tussauds was opened on Dec 1, 2017. There was many people to look around the statue.</string>
     <string name="biography">Biography</string>
     <string name="earlier_life">Earlier Life</string>
     <string name="earl_des_"> &#160;&#160;&#160;&#160;&#160; At the age of 4, she started learning music, mainly Bengali songs, from her first Guru – her mother. She gave her first stage performance at their club’s annual function. At the age of 6, she started getting formal training in Hindustani Classical Music. She learnt Classical Hindustani Music from Rakesh Sharmaji of Kota, Shri Jayawardhan Bhatnagar, her school\'s music teacher and thereafter, from Mahesh Chandra Sharmaji of Kota. She got her intial exposure to hindi film songs and rajasthani folk from Shri Bhatnagar. She received training in playback singing from Padmashree Late Kalyanji Bhai at later stage. After shifting to Mumbai she continued her training in Classical Hindustani Music with Late Mukta Bhideji.</string>
@@ -55,20 +55,20 @@ Shreya's massive fan following too was overwhelmed with her achievement. Her Twi
     <string name="awards">Awards</string>
     <string name="sg_details">&#160;&#160;&#160;&#160;&#160;  Shreya, best known as a singer in Hindi, she also sings in other Indian languages including Malayalam, Tamil, Telugu, Kannada, Marathi, Gujarati, Bengali, Assamese, Nepali, Oriya, Bhojpuri, Punjabi, Urdu, Tulu etc. and has established herself as a leading playback singer of Indian cinema.</string>
     <string name="national_awards">National Awards</string>
-    <string name="n_award">&#160;&#160;&#160;&#160;&#160; The National Film Awards is the most prestigious film award ceremony in India. Established in 1954, it is administered by the International Film Festival of India and the Indian government\'s Directorate of Film Festivals. The awards are presented by the President of India. Due to their national scale, they are considered to be the equivalent of the American Academy Awards. Shreya has received four awards. \n \n Shreya is the only person who holds 4 National awards at younger age</string>
+    <string name="n_award">&#160;&#160;&#160;&#160;&#160; The National Film Awards is the most prestigious film award ceremony in India. Established in 1954, it is administered by the International Film Festival of India and the Indian government\'s Directorate of Film Festivals. The awards are presented by the President of India. Due to their national scale, they are considered to be the equivalent of the American Academy Awards. Shreya has received four awards. \n \n Shreya is the only person who holds 4 National awards at younger age.</string>
     <string name="filmfare_awards">Filmfare Awards</string>
-    <string name="film_des">&#160;&#160;&#160;&#160;&#160; Shreya has received 13 Filmfare awards in total. She almost get every year in her musical career</string>
+    <string name="film_des">&#160;&#160;&#160;&#160;&#160; Shreya has received 15 Filmfare awards in total. She almost gets filmfare every year in her musical career.</string>
     <string name="more">To Know about more awards</string>
     <string name="click_here">Click here</string>
     <string name="music">Music</string>
-    <string name="sg_album">Shreya has also released two independent albums which made SG fans to go crazy</string>
+    <string name="sg_album">Shreya has also released two independent albums which made SG fans to go crazy.</string>
     <string name="dk">Dhadkane Azad Hain - Shreya\'s Single</string>
     <string name="tere_bina_shreya_s_single">Tere Bina - Shreya\'s Single</string>
     <string name="songs_sg">Here are some songs of Shreya</string>
-    <string name="hindi_songs_download">Hindi Songs download</string>
-    <string name="telugu_songs_download">Telugu Songs download</string>
-    <string name="tamil_songs_download">Tamil Songs download</string>
-    <string name="malayalam_songs_download">Malayalam Songs download</string>
+    <string name="hindi_songs_download">Listen to Hindi Songs</string>
+    <string name="telugu_songs_download">Listen to Telugu Songs</string>
+    <string name="tamil_songs_download">Listen to Tamil Songs</string>
+    <string name="malayalam_songs_download">Listen to Malayalam Songs</string>
     <string name="connect_with_us">Connect with us</string>
     <string name="application_created_by">Application\'s idea was designed and created by..</string>
     <string name="sg_offl">Connect with Shreya Ghoshal\'s Official Accounts here :</string>
@@ -84,14 +84,17 @@ Shreya's massive fan following too was overwhelmed with her achievement. Her Twi
     <string name="about_us">About us</string>
     <string name="a_few_about_me">A few about me :</string>
     <string name="sg_response">Here is the few responses of Shreya to me :</string>
-    <string name="feature">Feedbacks and improvements of App\'s feature are welcomed. Connect with me through social networks to improve App</string>
+    <string name="feature">Feedbacks and improvements of App\'s feature are welcomed. Connect with me through social networks to improve App.</string>
     <string name="feature_gmail">Connect with me through email to share your feedback and improve App </string>
-    <string name="about_me_detail">&#160;&#160;&#160;&#160;&#160; I am a very mad fan of Shreya Ghoshal since my school age. I have completed my college and working as Android developer for past few months. Like all SG fans, my wish is also to see her in Concert and to take photo with Shreya. I want to make myself unique to Shreya. This made the idea to develop this app. This app was developed only by me for all love with Shreya. \n \n \"\ I love the idea of waking up to a song. It could be any Shreya Ghoshal song.\"</string>
+    <string name="about_me_detail">&#160;&#160;&#160;&#160;&#160; I am a very mad fan of Shreya Ghoshal since my school age. I have completed my college and working as an Android developer for past few months. Like all SG fans, my wish is also to see her in Concert and to take photo with Shreya. I want to make myself unique to Shreya. This made me to develop this app. This app was developed only by me with all love for Shreya. \n \n \"\ I love the idea of waking up to a song. It could be any Shreya Ghoshal song.\"</string>
     <string name="mail_msg">&#160;&#160;&#160;&#160;&#160; Mail me to <b><i>&#160;shriram.baabu@gmail.com&#160; </i></b> with #ShreyaGhosal as Subject in message content.</string>
     <string name="statue">Statue</string>
     <string name="net_check">You need to have Mobile Data or Wifi to use this App !!!.</string>
     <string name="exit">Exit</string>
     <string name="share">Share</string>
     <string name="let_you_know_me">Let you know me</string>
+    <string name="quotes_by_shreya">Quotes by Shreya :</string>
+    <string name="birthday">It\'s Shreya\'s birthday Today.</string>
+    <string name="sg_day_prof">It\'s Shreya Ghoshal day Today. Visit SPECIAL DAY section for more details.</string>
 
 </resources>

@@ -10,8 +10,6 @@ import android.widget.ImageView;
 
 public class SgDay extends AppCompatActivity {
 
-    private ImageView sgVideo;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +21,7 @@ public class SgDay extends AppCompatActivity {
             actionBar.setDisplayShowHomeEnabled(true);
         }
 
-        sgVideo = findViewById(R.id.video_sg);
+        ImageView sgVideo = findViewById(R.id.video_sg);
         sgVideo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 

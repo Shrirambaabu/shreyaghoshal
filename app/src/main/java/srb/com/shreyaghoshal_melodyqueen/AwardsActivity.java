@@ -1,7 +1,6 @@
 package srb.com.shreyaghoshal_melodyqueen;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +9,6 @@ import android.widget.Button;
 
 public class AwardsActivity extends AppCompatActivity {
 
-    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,17 +18,12 @@ public class AwardsActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowHomeEnabled(true);
         }
-        button=findViewById(R.id.sg_button);
+
+        Button button = findViewById(R.id.sg_button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                /*Intent intent = new Intent();
-                intent.setAction(Intent.ACTION_VIEW);
-                intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Shreya_Ghoshal"));
-                startActivity(intent);*/
 
                 Intent browserAwardsIntent = new Intent(AwardsActivity.this,WebViewActivity.class);
                 browserAwardsIntent.putExtra("add","https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Shreya_Ghoshal");

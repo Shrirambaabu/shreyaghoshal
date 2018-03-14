@@ -21,6 +21,8 @@ public class StatueActivity extends AppCompatActivity {
             actionBar.setDisplayShowHomeEnabled(true);
         }
 
+
+
     }
 
 

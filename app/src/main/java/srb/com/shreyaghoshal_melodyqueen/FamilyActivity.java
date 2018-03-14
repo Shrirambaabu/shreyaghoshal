@@ -15,6 +15,7 @@ public class FamilyActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowHomeEnabled(true);
         }
+
     }
 
     @Override

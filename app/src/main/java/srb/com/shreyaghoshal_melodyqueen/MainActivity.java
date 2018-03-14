@@ -12,23 +12,22 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private RelativeLayout relativeProfile, relativeTweet, relativeFamily, relativeSgDay, relativeStatue, relativeBio, relativeCareer, relativeAwards, relativeMusic, relativeConnect;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        relativeProfile = findViewById(R.id.relative_profile);
-        relativeTweet = findViewById(R.id.relative_tweet);
-        relativeFamily = findViewById(R.id.relative_three);
-        relativeSgDay = findViewById(R.id.relative_four);
-        relativeStatue = findViewById(R.id.relative_five);
-        relativeBio = findViewById(R.id.relative_six);
-        relativeCareer = findViewById(R.id.relative_seven);
-        relativeAwards = findViewById(R.id.relative_eight);
-        relativeMusic = findViewById(R.id.relative_nine);
-        relativeConnect = findViewById(R.id.relative_ten);
+
+        RelativeLayout relativeProfile = findViewById(R.id.relative_profile);
+        RelativeLayout relativeTweet = findViewById(R.id.relative_tweet);
+        RelativeLayout relativeFamily = findViewById(R.id.relative_three);
+        RelativeLayout relativeSgDay = findViewById(R.id.relative_four);
+        RelativeLayout relativeStatue = findViewById(R.id.relative_five);
+        RelativeLayout relativeBio = findViewById(R.id.relative_six);
+        RelativeLayout relativeCareer = findViewById(R.id.relative_seven);
+        RelativeLayout relativeAwards = findViewById(R.id.relative_eight);
+        RelativeLayout relativeMusic = findViewById(R.id.relative_nine);
+        RelativeLayout relativeConnect = findViewById(R.id.relative_ten);
 
         relativeProfile.setOnClickListener(this);
         relativeTweet.setOnClickListener(this);
@@ -90,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.putExtra(Intent.EXTRA_TEXT,
-                        "Hey check out my app at: https://play.google.com/store/apps/details?id=srb.com.shreyaghoshal_melodyqueen");
+                        "Hey check out the first Android app of Shreya Ghoshal by a SG fan at: https://play.google.com/store/apps/details?id=srb.com.shreyaghoshal_melodyqueen");
                 sendIntent.setType("text/plain");
                 startActivity(sendIntent);
 

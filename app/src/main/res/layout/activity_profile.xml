@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -25,12 +25,13 @@
                     android:id="@+id/relLayout2"
                     android:layout_width="match_parent"
                     android:layout_height="256dp">
+
                     <ImageView
                         android:id="@+id/profileCover"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/sg_cover"
-                        android:scaleType="centerCrop"/>
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sg_cover_22" />
 
                     <com.jackandphantom.circularimageview.CircleImage
                         android:id="@+id/circleImage"
@@ -42,14 +43,13 @@
                         app:add_shadow="false" />
 
 
-
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@android:color/white"
-                    android:layout_below="@id/relLayout2">
+                    android:layout_below="@id/relLayout2"
+                    android:background="@android:color/white">
 
                     <TableLayout
                         android:layout_width="match_parent"
@@ -76,7 +76,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_column="1"
                                 android:layout_weight="1"
-                                android:maxLines="1"
                                 android:padding="8dp"
                                 android:text="12 March, 1984"
                                 android:textColor="@color/colorOrange"
@@ -130,7 +129,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_column="1"
                                 android:layout_weight="1"
-                                android:maxLines="2"
                                 android:padding="8dp"
                                 android:text="@string/baharampur_west_bengal"
                                 android:textColor="@color/colorOrange"
@@ -157,7 +155,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_column="1"
                                 android:layout_weight="1"
-                                android:maxLines="2"
                                 android:padding="8dp"
                                 android:text="@string/atomic_energy_central_school_in_rawatbhata"
                                 android:textColor="@color/colorOrange"
@@ -192,9 +189,9 @@
                         </TableRow>
 
                         <TableRow
+                            android:layout_marginBottom="24dp"
                             android:layout_marginEnd="24dp"
-                            android:layout_marginStart="24dp"
-                            android:layout_marginBottom="24dp">
+                            android:layout_marginStart="24dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -226,10 +223,55 @@
                 </RelativeLayout>
 
 
-
             </RelativeLayout>
 
         </ScrollView>
 
     </RelativeLayout>
-</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/birthday"
+            android:scaleType="centerCrop"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent">
+
+            <TextView
+                android:id="@+id/text_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/birthday"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="italic|bold" />
+
+            <com.jetradarmobile.snowfall.SnowfallView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:snowflakeAlphaMax="255"
+                app:snowflakeAlphaMin="150"
+                app:snowflakeAngleMax="5"
+                app:snowflakeImage="@drawable/hrt"
+                app:snowflakeSizeMax="32dp"
+                app:snowflakeSizeMin="8dp"
+                app:snowflakeSpeedMax="10"
+                app:snowflakeSpeedMin="4"
+                app:snowflakesAlreadyFalling="false"
+                app:snowflakesFadingEnabled="true"
+                app:snowflakesNum="250" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

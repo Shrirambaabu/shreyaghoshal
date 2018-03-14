@@ -13,8 +13,6 @@ public class MusicActivity extends AppCompatActivity implements View.OnClickList
 
     ImageView dkImage, tereImage;
 
-    private Button hindi, tamil, telugu, malayalam;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +26,13 @@ public class MusicActivity extends AppCompatActivity implements View.OnClickList
             actionBar.setDisplayShowHomeEnabled(true);
         }
 
+
         dkImage = findViewById(R.id.dk_image);
         tereImage = findViewById(R.id.teri_image);
-        hindi = findViewById(R.id.hindi_button);
-        tamil = findViewById(R.id.tamil_button);
-        telugu = findViewById(R.id.telugu_button);
-        malayalam = findViewById(R.id.malayalam_button);
+        Button hindi = findViewById(R.id.hindi_button);
+        Button tamil = findViewById(R.id.tamil_button);
+        Button telugu = findViewById(R.id.telugu_button);
+        Button malayalam = findViewById(R.id.malayalam_button);
 
 
         dkImage.setOnClickListener(this);

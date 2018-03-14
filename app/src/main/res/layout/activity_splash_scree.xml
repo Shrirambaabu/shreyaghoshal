@@ -4,33 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
     tools:context="srb.com.shreyaghoshal_melodyqueen.SplashScreen">
 
-    <ImageView
-        android:id="@+id/splash_image"
-        android:layout_width="180dp"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="96dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/sg_home" />
 
-    <com.jetradarmobile.snowfall.SnowfallView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:snowflakeAlphaMax="255"
-        app:snowflakeAlphaMin="150"
-        app:snowflakeAngleMax="5"
-        app:snowflakeImage="@drawable/hrt"
-        app:snowflakeSizeMax="32dp"
-        app:snowflakeSizeMin="8dp"
-        app:snowflakeSpeedMax="12"
-        app:snowflakeSpeedMin="6"
-        app:snowflakesAlreadyFalling="false"
-        app:snowflakesFadingEnabled="true"
-        app:snowflakesNum="250" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/mic_sg" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparent">
+
+
+        <ImageView
+            android:id="@+id/splash_image"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="96dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sg_home" />
+
+        <com.jetradarmobile.snowfall.SnowfallView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:snowflakeAlphaMax="255"
+            app:snowflakeAlphaMin="150"
+            app:snowflakeAngleMax="5"
+            app:snowflakeImage="@drawable/hrt"
+            app:snowflakeSizeMax="32dp"
+            app:snowflakeSizeMin="8dp"
+            app:snowflakeSpeedMax="10"
+            app:snowflakeSpeedMin="4"
+            app:snowflakesAlreadyFalling="false"
+            app:snowflakesFadingEnabled="true"
+            app:snowflakesNum="250" />
+    </RelativeLayout>
 
 </RelativeLayout>

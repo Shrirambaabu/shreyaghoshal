@@ -11,14 +11,12 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.wang.avi.AVLoadingIndicatorView;
 
 public class WebViewActivity extends AppCompatActivity {
 
     private ProgressDialog pDialog;
 
-    private long timer=8000;
-    private AVLoadingIndicatorView avLoadingIndicatorView;
+    private long timer = 10000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,16 +44,22 @@ public class WebViewActivity extends AppCompatActivity {
             actionBar.setTitle(title);
         }
 
-        if (title.equals("Awards")){
-            timer=3000;
+        if (title.equals("Awards")) {
+            timer = 3000;
+        } else if (title.equals("Quotes")) {
+            timer = 5000;
         }
-
         pDialog = new ProgressDialog(WebViewActivity.this, R.style.MyThemeProgress);
         pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Large);
         pDialog.onBackPressed();
         pDialog.setCancelable(false);
         pDialog.setCanceledOnTouchOutside(false);
-        pDialog.setMessage("Loading Time is based on your Network Connection");
+        if (title.equals("Awards") || title.equals("Quotes")) {
+            pDialog.setMessage("Loading Time is based on your Network Connection");
+        } else {
+            pDialog.setMessage("Loading and Song Playing Time is based on your Network Connection");
+        }
+
         pDialog.show();
 
         webView.loadUrl(add);
